@@ -1,5 +1,9 @@
 function factorial(num) {
-  return 0;
+  result = 1;
+  for (i = num; i > 0; i--) {
+    result *= i;
+  }
+  return result;
 }
 
 module.exports = factorial;
